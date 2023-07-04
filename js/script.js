@@ -19,8 +19,8 @@ function contador (edad) {
     } else {
         break;
     }
-    console.log(personas);
-    console.log(edades);
+ //   console.log(personas);
+ //   console.log(edades);
 }
 }
 contador(edad);
@@ -39,11 +39,11 @@ function calcularPromedioEdad (edad, personas) {
 
 
 
-// Verificar si se trata de 1 o más personas para expresar en plural el resultado
+// Verificar si se trata de 1 o más personas para expresar en plural (o singular) el resultado
     if (personas === 1) {
-        console.log(personas+" " + "persona da un promedio de edad de"+" "+resultado+" "+"años");
+        console.log(personas+" "+"persona da un promedio de edad de"+" "+resultado+" "+"años");
         } else {
-            console.log(personas+" " + "personas dan un promedio de edad de"+" "+resultado+" "+"años");
+            console.log(personas+" "+"personas dan un promedio de edad de"+" "+resultado+" "+"años");
          
         }
       
